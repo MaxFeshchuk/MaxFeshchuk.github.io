@@ -4,12 +4,12 @@
 
 The calculator contains 4 functionalities:
 ![functionalities](calc/images/README_5.png)
-1. select (not working now)
-2. [info](#Info)
-3. [reset](#Reset)
-4. [button "Calculate" and "Clear"](https://github.com/MaxFeshchuk/MaxFeshchuk.github.io/README.md#L25)
-	- [Button "Calculate"](https://github.com/MaxFeshchuk/MaxFeshchuk.github.io/#L50)
-	- [Button "Clear"](https://github.com/MaxFeshchuk/MaxFeshchuk.github.io/#L100)
+1. Select (not working now)
+2. Info
+3. Reset
+4. Button "Calculate" and "Clear"
+	- Button "Calculate"
+	- Button "Clear"
 
 
 ### Info
