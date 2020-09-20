@@ -1,4 +1,4 @@
-# Crack propensity calculator
+# Hot cracking susceptibility calculator
 *You can see page by following this [link](https://maxfeshchuk.github.io/calc/)*
 ## How the calculator works
 
