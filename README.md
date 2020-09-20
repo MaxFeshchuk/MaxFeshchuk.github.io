@@ -3,10 +3,11 @@
 ## How the calculator works
 
 The calculator contains 4 functionalities:
-- select (not working now)
-- info
-- reset
-- button "Calculate" and "Clear"
+![fill_fields](calc/images/README_5.png)
+1. select (not working now)
+2. info
+3. reset
+4. button "Calculate" and "Clear"
 
 ### Info
 
@@ -28,10 +29,12 @@ Ok, you are ready. Fill in the appropriate fields on the site.</br>
 ![fill_fields](calc/images/README_2.png)
 Now press the button "Calculate"!</br>
 ![fill_fields](calc/images/README_3.png)
-Congratulations! You calculated the susceptibility of steel to cracking
+Congratulations! You calculated the susceptibility of steel to cracking.
 
 #### Button "Clear"
 
 If there is a situation that you want to clear the fields, press the button "Clear"
 and fields empty again.
 ![fill_fields](calc/images/README_4.png)
+
+So far these are all available features.
