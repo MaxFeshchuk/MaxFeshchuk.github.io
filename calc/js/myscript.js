@@ -131,28 +131,28 @@ $(document).ready(function(){
 			}
 
 			if (C > 100){ //Перевірка, щоб введений хімічний елемент не перевищував 100%
-				$('#result').html("Вміст C не може перевищувати 100%. Перевірте введені дані.");
+				$('#result').html("The C content cannot exceed 100%. Check the entered data.");
 			}else if (S > 100){
-				$('#result').html("Вміст S не може перевищувати 100%. Перевірте введені дані.");
+				$('#result').html("The C content cannot exceed 100%. Check the entered data.");
 			}else if (P > 100){
-				$('#result').html("Вміст P не може перевищувати 100%. Перевірте введені дані.");
+				$('#result').html("The C content cannot exceed 100%. Check the entered data.");
 			}else if (Si > 100){
-				$('#result').html("Вміст Si не може перевищувати 100%. Перевірте введені дані.");
+				$('#result').html("The C content cannot exceed 100%. Check the entered data.");
 			}else if (Ni > 100){
-				$('#result').html("Вміст Ni не може перевищувати 100%. Перевірте введені дані.");
+				$('#result').html("The C content cannot exceed 100%. Check the entered data.");
 			}else if (Mn > 100){
-				$('#result').html("Вміст Mn не може перевищувати 100%. Перевірте введені дані.");
+				$('#result').html("The C content cannot exceed 100%. Check the entered data.");
 			}else if (Cr > 100){
-				$('#result').html("Вміст Cr не може перевищувати 100%. Перевірте введені дані.");
+				$('#result').html("The C content cannot exceed 100%. Check the entered data.");
 			}else if (Mo > 100){
-				$('#result').html("Вміст Mo не може перевищувати 100%. Перевірте введені дані.");
+				$('#result').html("The C content cannot exceed 100%. Check the entered data.");
 			}else if (V > 100){
-				$('#result').html("Вміст V не може перевищувати 100%. Перевірте введені дані.");
+				$('#result').html("The C content cannot exceed 100%. Check the entered data.");
 			}else if (Cu > 100){
-				$('#result').html("Вміст Cu не може перевищувати 100%. Перевірте введені дані.");
+				$('#result').html("The C content cannot exceed 100%. Check the entered data.");
 
 			}else if((C+S+P+Si+Ni+Mn+Cr+Mo+V+Cu)>100){ //Перевірка, щоб сумарний вміст хімічних ел. не первищував 100%
-				$('#result').html("Сумарний вміст хім.ел. не може перевищувати 100%. Перевірте введені дані.");
+				$('#result').html("The total content of chemical el. cannot exceed 100%. Check the entered data.");
 			}else{
 
 				var St = new Steel(C, S, P, Si, Ni, Mn, Cr, Mo, V, Cu);
@@ -162,14 +162,14 @@ $(document).ready(function(){
 				St.save();
 
 				if (HRC <= 0.004 & HRC > 0){
-					$('#result').html("Сталь не схильна до появи гарячих тріщин");
+					$('#result').html("Steel is not prone to hot cracks");
 				}
 				else{
 					if(HRC > 0.004){
-						$('#result').html("Сталь схильна до появи гарячих тріщин");
+						$('#result').html("Steel is prone to hot cracks");
 					}
 					else{
-					$('#result').html('Перевірте введені дані');
+					$('#result').html('Check the entered data.');
 					}
 				}
 			}
@@ -193,7 +193,7 @@ $(document).ready(function(){
 	});
 
 	$('#help').click(function(){
-		alert("Потрібно ввести в поля вміст хімічних елементів після чого натиснути на кнопку Calculate");
+		alert("You need to enter the content of chemical el. in the fields and then click on the button 'Calculate'");
 	})
 
 	$('#reload').click(function(){
