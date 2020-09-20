@@ -7,9 +7,9 @@ The calculator contains 4 functionalities:
 1. select (not working now)
 2. [info](#Info)
 3. [reset](#Reset)
-4. [button "Calculate" and "Clear"](#Button "Calculate" and "Clear")
-	- [Button "Calculate"](#Button "Calculate")
-	- [Button "Clear"](#Button "Clear")
+4. [button "Calculate" and "Clear"](#Button Calculate and Clear)
+	- [Button "Calculate"](#Button Calculate)
+	- [Button "Clear"](#Button Clear)
 
 
 ### Info
