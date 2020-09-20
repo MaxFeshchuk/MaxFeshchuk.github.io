@@ -11,7 +11,7 @@ The calculator contains 4 functionalities:
 
 ### Info
 
-Click on this icon and you get a some hint.
+Click on this icon and you get a some hint.</br>
 ![fill_fields](calc/images/README_6.png)
 
 ### Reset
