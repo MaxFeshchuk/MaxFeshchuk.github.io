@@ -38,4 +38,4 @@ If there is a situation that you want to clear the fields, press the button "Cle
 and fields empty again.</br></br>
 ![fill_fields](calc/images/README_4.png)
 
-So far, these are all available features.
+So far, these are all available features. Thank you for attention')'
