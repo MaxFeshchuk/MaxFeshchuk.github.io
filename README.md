@@ -8,8 +8,8 @@ The calculator contains 4 functionalities:
 2. [info](#Info)
 3. [reset](#Reset)
 4. [button "Calculate" and "Clear"](https://github.com/MaxFeshchuk/MaxFeshchuk.github.io/#L25)
-	- [Button "Calculate"](#Button Calculate)
-	- [Button "Clear"](#Button Clear)
+	- [Button "Calculate"](https://github.com/MaxFeshchuk/MaxFeshchuk.github.io/#L25)
+	- [Button "Clear"](https://github.com/MaxFeshchuk/MaxFeshchuk.github.io/#L25)
 
 
 ### Info
