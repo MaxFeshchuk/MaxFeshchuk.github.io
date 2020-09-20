@@ -7,7 +7,7 @@ The calculator contains 4 functionalities:
 1. select (not working now)
 2. [info](#Info)
 3. [reset](#Reset)
-4. [button "Calculate" and "Clear"](https://github.com/MaxFeshchuk/MaxFeshchuk.github.io/#L25)
+4. [button "Calculate" and "Clear"](https://github.com/MaxFeshchuk/MaxFeshchuk.github.io/README.md#L25)
 	- [Button "Calculate"](https://github.com/MaxFeshchuk/MaxFeshchuk.github.io/#L50)
 	- [Button "Clear"](https://github.com/MaxFeshchuk/MaxFeshchuk.github.io/#L100)
 
