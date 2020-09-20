@@ -11,7 +11,7 @@ The calculator contains 4 functionalities:
 
 ### Info
 
-Click on this icon and you get a some hint.</br>
+Click on this icon and you get a some hint.</br></br>
 ![fill_fields](calc/images/README_6.png)
 
 ### Reset
@@ -23,19 +23,19 @@ If you want to reset them please click on this icon.
 
 #### Button "Calculate"
 
-First you need to find the composition of the required steel.</br>
+First you need to find the composition of the required steel.</br></br>
 ![composition](calc/images/README_1.png)
 Then, if the fields are not empty, click "reret" or button "clear".</br> 
-Ok, you are ready. Fill in the appropriate fields on the site.</br>
+Ok, you are ready. Fill in the appropriate fields on the site.</br>v
 ![fill_fields](calc/images/README_2.png)
-Now press the button "Calculate"!</br>
+Now press the button "Calculate"!</br></br>
 ![fill_fields](calc/images/README_3.png)
 Congratulations! You calculated the susceptibility of steel to cracking.
 
 #### Button "Clear"
 
 If there is a situation that you want to clear the fields, press the button "Clear"
-and fields empty again.
+and fields empty again.</br></br>
 ![fill_fields](calc/images/README_4.png)
 
-So far these are all available features.
+So far, these are all available features.
