@@ -3,9 +3,9 @@
 ## How the calculator works
 
 First you need to find the composition of the required steel.</br>
-![composition](images/README_1.png)
+![composition](calc/images/README_1.png)
 Then fill in the appropriate fields on the site.</br>
-![fill_fields](images/README_2.png)
+![fill_fields](calc/images/README_2.png)
 and press the button "Calculate"</br>
-![fill_fields](images/README_3.png)
+![fill_fields](calc/images/README_3.png)
 Congratulations! You calculated the susceptibility of steel to cracking
