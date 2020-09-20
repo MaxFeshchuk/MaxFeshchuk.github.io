@@ -1,0 +1,234 @@
+body{
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+	display: flex;
+}
+a{
+	text-decoration: none;
+}
+header{
+	background: #f6f6f6;
+	padding: 5px 0px;
+}
+.header-conteiner{
+	width: 80%;
+	padding-left: 10%;
+	display: flex;
+	justify-content: space-between;
+}
+.header-conteiner a{
+	color: #000;
+	font-size: 16px;
+	margin-left: 63px;
+	padding: 20px 0px;
+}
+.header-conteiner a:hover{
+	background: #ffea00;
+}
+ul{
+	display: flex;
+}
+nav{
+	display: flex;
+	justify-content: left;
+}
+button:focus, select:focus{
+	outline: none;
+}
+
+
+
+.top-slider{
+	background: url(../images/background-calculator.jpg);
+	height: 100%;
+}
+	.info{
+		font-size: 20px;
+		color: #fff;
+		padding-top: 30px;
+		padding-left: 10%;
+		margin-bottom: 30px;
+		width: 80%;
+		display: flex;
+		justify-content: center;
+	}
+	.top-table{
+		width: 80%;
+		padding-left: 10%;
+
+		justify-content: center;
+		display: flex;
+	}
+		.top-table select{
+			font-size: 18px;
+			color: #000;
+			font-weight: 400;
+			border: solid 2px #F6F6F6FF;
+			width: auto;
+			margin-left: 26px;
+			margin-right: 10px;
+			height: 35px;
+			border-radius: 17.5px;
+			padding-left: 10px;
+		}
+		.top-table select:hover{
+			cursor: pointer;
+			border: solid 2px #FFEA00FF;
+		}
+		.top-table select:focus{
+			border-bottom-left-radius: 0;
+			border-bottom-right-radius: 0;
+		}
+		.help i{
+			font-size: 20px;
+		}
+		.help i:hover{
+			cursor: pointer;
+		}
+	.midle-table{
+		width: 80%;
+		padding-left: 10%;
+	}
+		.result{
+			margin-top: 40px;
+			margin-bottom: 35px;
+			display: flex;
+			justify-content: center;
+		}
+			.result p{
+				padding-top: 3px;
+				font-size: 18px;
+				font-weight: 700;
+				color: #000;
+				border: solid 2px #F6F6F6FF;
+				background: #F6F6F6FF;
+				border-radius: 20px;
+				padding-left: 15px;
+				width: 100%;
+				height: 35px;
+			}
+			
+			.reload i{
+				font-size: 20px;
+				float: right;
+			}
+			.reload i:hover{
+				cursor: pointer;
+			}
+		.input_block{
+			width: 100%;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+		}
+		.input_table{
+			position: relative;
+  			margin-bottom: 35px;
+		}
+			.input_table input{
+				display: block;
+				font-size: 18px;
+				color: #000;
+				font-weight: 700;
+				border: none;
+				background: #F6F6F6FF;
+				border: solid 2px #F6F6F6FF;
+				width: 186px;
+				height: 35px;
+				border-radius: 35px;
+				padding-left: 15px;
+			}
+			input:focus {
+  				outline: none;
+			}
+			.input_table input:hover{
+				border: solid 2px #FFEA00FF;
+			}
+			.input_table label{
+				color: #999;
+				font-size: 18px;
+				position: absolute;
+				pointer-events: none;
+				left: 15px;
+				bottom: 6px;
+				transition: 0.2s ease all;
+ 				-moz-transition: 0.2s ease all;
+  				-webkit-transition: 0.2s ease all;
+			}
+			input:focus ~ label, input:valid ~ label{
+				bottom: 38px;
+				font-size: 14px;
+				color: #fff;
+			}
+			.input_table input:valid{
+				border: solid 2px #FFEA00FF;
+			}
+		.button_table{
+			width: 100%;
+			display: flex;
+			justify-content: center;
+		}	
+		.button_calc, .button_reset{
+			margin-left: 10px;
+			margin-right: 10px;
+			margin-bottom: 25px;
+		}
+			.button_table button{
+				font-size: 18px;
+				color: #000;
+				font-weight: 700;
+				border: solid 2px #FFEA00FF;
+				background: #F6F6F6FF;
+				width: 200px;
+				height: 39px;
+				border-radius: 20px;
+				transition: 0.3s ease all;
+ 				-moz-transition: 0.3s ease all;
+  				-webkit-transition: 0.3s ease all;
+			}
+			.button_table button:hover, input[type="reset"]:hover{
+				cursor: pointer;
+				background: #FFEA00FF;
+				border: solid 2px #FFEA00FF;
+			}
+	.middle_arrow{
+		display: flex;
+		justify-content: center;
+		margin-top: 25px;
+
+	}
+		.middle_arrow i{
+			font-size: 40px;
+			color: #F6F6F6FF;
+		}
+	.head-formula,.HRC, .Ce, .short-head{
+		display: flex;
+		justify-content: center;
+		margin-top: 40px;
+		color: #fff;
+		width: 80%;
+		padding-left: 10%;
+	}
+	.short-information{
+		display: flex;
+		justify-content: center;
+		margin-top: 40px;
+		margin-bottom: 80px;
+		color: #fff;
+		width: 80%;
+		padding-left: 10%;
+	}
+.footer{
+	height: 200px;
+	display: flex;
+	justify-content: space-around;
+}
+	.colum-1, .colum-2, .colum-3{
+		margin-top: 40px;
+	}

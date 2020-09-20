@@ -1,0 +1,68 @@
+body{
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+	display: flex;
+}
+a{
+	text-decoration: none;
+}
+header{
+	background: #f6f6f6;
+	padding: 5px 0px;
+}
+.header-conteiner{
+	width: 80%;
+	padding-left: 10%;
+	display: flex;
+	justify-content: space-between;
+}
+.header-conteiner a{
+	color: #000;
+	font-size: 16px;
+	margin-left: 63px;
+	padding: 20px 0px;
+}
+.header-conteiner a:hover{
+	background: #ffea00;
+}
+ul{
+	display: flex;
+}
+nav{
+	display: flex;
+	justify-content: left;
+}
+.top-slide{
+	background: url(../images/background-home.png) no-repeat;
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+.top-conteiner{
+	padding-left: 10%;
+	width: 80%;
+}
+.top-slide h2{
+	background: #ffea00;
+	display: inline;
+	font-size: 70px;
+	padding: 0px 13px;
+}
+.top-slide p{
+	background: #414146;
+	display: inline;
+	font-size: 24px;
+	color: #fff;
+}
+.specialize{
+	padding-top: 40px;
+	padding-bottom: 100px;
+	padding-left: 10%;
+	width: 80%;
+	background: #F6F6F6FF;
+}

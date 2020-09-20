@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>WeldCalc</title>
+	<link rel="shortcut icon" type="image/x-icon" href="images/icon.png">
+	<link rel="stylesheet" href="css/styles-calc.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="js/myscript.js"></script>
+</head>
+<body>
+	<header>
+		<div class="header-conteiner">
+			<div class="logo">
+				<img src="images/logo.png" alt="logo">
+			</div>
+			<nav role="navigation">
+				<ul class="main-menu">
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="calc.html">CALCULATOR</a></li>
+					<li><a href="#">INFO</a></li>
+					<li><a href="#">GALLERY</a></li>
+					<li><a href="#">CONTACT</a></li>
+				</ul>	
+			</nav>
+		</div>	
+	</header>
+	<main>
+		<section class="top-slider">
+			<div class="info">
+				<h1>Калькулятор розрахунку схильності металу до появи тріщин</h1>
+			</div>
+			<div class="top-table">
+				<select id="selector" name="selector" class="selector">
+					<option value="a" selected>Гарячі тріщини (HCS)</option>
+					</select>
+				<div class="help" id="help">	
+					<i class="fas fa-info-circle"></i>
+				</div>
+			</div>
+			<div class="midle-table">
+				
+				<form>
+					<div class="result" >
+						<p id="result"></p>
+					</div>
+					<div class="reload" id="reload">
+						<i class="fas fa-redo-alt"></i>
+					</div>					
+
+					<div class="input_block">	
+						<div class="input_table">
+							<input id="inp1" type="number" autocomplete="off" step="0.001" required>
+							<label>Enter C in %</label>
+						</div>
+						<div class="input_table">
+							<input id="inp2" type="number" autocomplete="off" step="0.001" required>
+							<label>Enter S in %</label>
+						</div>
+						<div class="input_table">
+							<input id="inp3" type="number" autocomplete="off" step="0.001" required>
+							<label>Enter P in %</label>
+						</div>
+						<div class="input_table">
+							<input id="inp4" type="number" autocomplete="off" step="0.001" required>
+							<label>Enter Si in %</label>
+						</div>
+						<div class="input_table">
+							<input id="inp5" type="number" autocomplete="off" step="0.001" required>
+							<label>Enter Ni in %</label>
+						</div>
+						<div class="input_table">
+							<input id="inp6" type="number" autocomplete="off" step="0.001" required>
+							<label>Enter Mn in %</label>
+						</div>
+						<div class="input_table">
+							<input id="inp7" type="number" autocomplete="off" step="0.001" required>
+							<label>Enter Cr in %</label>
+						</div>
+						<div class="input_table">
+							<input id="inp8" type="number" autocomplete="off" step="0.001" required>
+							<label>Enter Mo in %</label>
+						</div>
+						<div class="input_table">
+							<input id="inp9" type="number" autocomplete="off" step="0.001" required>
+							<label>Enter V in %</label>
+						</div>
+						<div class="input_table">
+							<input id="inp10" type="number" autocomplete="off" step="0.001" required>
+							<label>Enter Cu in %</label>
+						</div>
+						
+					</div>
+				</form>
+				</div>
+				<div class="button_table">
+							<div class="button_calc">
+								<button id="button_calc">Calculate</button>
+							</div>
+							<div class="button_reset">
+								<button  id="reset">Clear</button>
+							</div>
+						</div>
+				<div class="middle_arrow">
+					<i class="fas fa-chevron-down"></i>
+				</div>		
+			</div>			
+			<div class="head-formula">
+				<h2>Формули</h2>
+			</div>
+			<div class="HRC">
+				<p>HCS = C • (S + Р + Si / 25 + Ni / 100) • 103 / 3 • Μn + Cr + Mo + V.</p><br>
+			</div>
+			<div class="Ce">
+				<p>Ce = C + Mn / 6 + (Cr + Mo + V)/ 5 + (Ni + Cu) / 15.</p>		
+			</div>
+			<div class="short-data">
+				<div class="short-head">
+					<h2>Короткі теоретичні відомості</h2>
+				</div>
+				<div class="short-information">
+					<p>Гарячі тріщини. Імовірність їх виникнення зростає, якщо при нагріванні в структурі утворюються легкоплавкі евтектики.
+					Опір утворення гарячих тріщин оцінюють показником - HCS (hot cracking susceptibility).<br><br>
+					
+					Холодні тріщини. У сталях з високою закаліваемостью холодні тріщини можуть виникати внаслідок структурних напружень (при зварюванні деякі ділянки ЗТВ нагріваються вище гартівних температур, при швидкому охолодженні утворюється мартенсит).
+					Сумарний вплив хімічного складу на схильність до утворення холодних тріщин оцінюється еквівалентним вмістом вуглецю Ce.</p>
+				</div>	
+			</div>
+		</section>			
+	</main>
+	<footer>
+		<div class="footer">
+			<div class="colum-1">
+				Copyright © 2019<br>бла бла бла<br>бла бла бла
+			</div>
+			<div class="colum-2">
+				бла бла бла<br>бла бла бла<br>бла бла бла
+			</div>
+			<div class="colum-3">
+				бла бла бла<br>бла бла бла<br>бла бла бла
+			</div>
+		</div>
+	</footer>
+	
+</body>
+</html>
