@@ -26,7 +26,7 @@ If you want to reset them please click on this icon.
 First you need to find the composition of the required steel.</br></br>
 ![composition](calc/images/README_1.png)
 Then, if the fields are not empty, click "reret" or button "clear".</br> 
-Ok, you are ready. Fill in the appropriate fields on the site.</br>v
+Ok, you are ready. Fill in the appropriate fields on the site.</br>
 ![fill_fields](calc/images/README_2.png)
 Now press the button "Calculate"!</br></br>
 ![result](calc/images/README_3.png)
