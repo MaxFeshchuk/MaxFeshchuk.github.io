@@ -9,7 +9,7 @@ The calculator contains 4 functionalities:
 3. [Reset](#Reset)
 4. [Button "Calculate" and "Clear"](#Button-"Calculate"-and-"Clear")
 	- [Button "Calculate"](#Button-"Calculate")
-	- [Button "Clear"](#Button-"Clear")
+	- [Button "Clear"](#Button-Clear)
 
 
 ### Info
