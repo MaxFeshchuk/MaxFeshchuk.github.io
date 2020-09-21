@@ -5,11 +5,11 @@
 The calculator contains 4 functionalities:
 ![functionalities](calc/images/README_5.png)
 1. Select (not working now)
-2. Info
-3. Reset
-4. Button "Calculate" and "Clear"
-	- Button "Calculate"
-	- Button "Clear"
+2. [Info](#Info)
+3. [Reset](#Reset)
+4. [Button "Calculate" and "Clear"](#Button-"Calculate"-and-"Clear")
+	- [Button "Calculate"](#Button-"Calculate")
+	- [Button "Clear"](#Button-"Clear")
 
 
 ### Info
